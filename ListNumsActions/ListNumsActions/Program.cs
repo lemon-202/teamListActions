@@ -20,13 +20,37 @@ namespace ListNumsActions
                 switch (command)
                 {
                     case "ins":
-                        //TODO
+                        int insertIndex = int.Parse(cmd[1]);
+                        int insertNumber = int.Parse(cmd[2]);
+
+                        if (insertIndex >= 0 && insertIndex < nums.Count)
+                        {
+                            nums.Insert(insertIndex, insertNumber);
+                        }
                         break;
+
                     case "del":
-                        //TODO
+                        int deleteIndex = int.Parse(cmd[1]);
+
+                        if (deleteIndex >= 0 && deleteIndex < nums.Count)
+                        {
+                            nums.RemoveAt(deleteIndex);
+                        }
                         break;
+
                     case "contains":
-                        //TODO
+                        int numberToCheck = int.Parse(cmd[1]);
+
+                        if (nums.Contains(numberToCheck))
+                        {
+                            Console.WriteLine("Yes");
+                        }
+                        else
+                        {
+                            Console.WriteLine("No");
+                        }
+                        break;
+
                         break;
                     case "remove":
                         //TODO

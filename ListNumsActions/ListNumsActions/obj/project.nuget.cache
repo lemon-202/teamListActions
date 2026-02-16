@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/txEZHY+bP8=",
+  "dgSpecHash": "m4z9u1AfF1Q=",
   "success": true,
-  "projectFilePath": "D:\\2023-2024\\11V-UP-RS\\0. Git-GitHub\\ListNumsActions\\ListNumsActions\\ListNumsActions.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Student\\Documents\\Jess11b\\teamListActions\\ListNumsActions\\ListNumsActions\\ListNumsActions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
