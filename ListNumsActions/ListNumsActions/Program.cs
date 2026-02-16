@@ -50,15 +50,24 @@ namespace ListNumsActions
                             Console.WriteLine("No");
                         }
                         break;
-
-                        break;
+                        
                     case "remove":
-                        //TODO
+                        int numberToRemove = int.Parse(cmd[1]);
+                        nums.Remove(numberToRemove);
                         break;
-                    //TODO
 
-                    default:
+
+                    case "add":
+                        int num1 = int.Parse(cmd[1]);
+                        int num2 = int.Parse(cmd[2]);
+                        nums.Add(num1 + num2);
                         break;
+
+                    case "large":
+                        int numberLarge = int.Parse(cmd[1]);
+                        Console.WriteLine(string.Join(" ", nums.Where(x => x > numberLarge)));
+                        break;
+
                 }
             }
         }
