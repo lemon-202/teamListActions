@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ListNumsActions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8bf20a04911a1206e1ee39e0b9165e96d439aa0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ListNumsActions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ListNumsActions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
