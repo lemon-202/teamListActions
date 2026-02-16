@@ -68,6 +68,28 @@ namespace ListNumsActions
                         Console.WriteLine(string.Join(" ", nums.Where(x => x > numberLarge)));
                         break;
 
+                    case "countl":
+                        int numberCount = int.Parse(cmd[1]);
+                        Console.WriteLine(nums.Count(x => x > numberCount));
+                        break;
+
+                    case "cut":
+                        int cutCount = int.Parse(cmd[1]);
+
+                        if (cutCount >= nums.Count)
+                        {
+                            nums.Clear();
+                        }
+                        else if (cutCount > 0)
+                        {
+                            nums.RemoveRange(0, cutCount);
+                        }
+                        break;
+
+                    case "print":
+                        Console.WriteLine(string.Join(" ", nums));
+                        break;
+
                 }
             }
         }
